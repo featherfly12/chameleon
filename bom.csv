@@ -1,0 +1,13 @@
+Reference,Qty,Description,Value/Spec,Package/Type,Notes
+A1,1,Microcontroller board,Arduino Uno R3,Through-hole board,Main controller
+D1,1,RGB LED,LED_ARGB (Common Cathode),5mm 4-pin,Connected to D6 (R), D5 (G)/D9, D10 (B) via resistors - verify pinout in schematic
+R1,1,Resistor,220-330 ohm,THT axial,Current limiting resistor for LED Red channel
+R2,1,Resistor,220-330 ohm,THT axial,Current limiting resistor for LED Green channel
+R3,1,Resistor,220-330 ohm,THT axial,Current limiting resistor for LED Blue channel
+U1,1,Temperature/Humidity Sensor,SHT1x (SHT10/SHT11/SHT15),4-pin breakout,I2C-like DATA/SCK interface; VDD/GND power
+JW1,8,Jumper wire,Male-to-Male,~10-20cm,For breadboard/Arduino connections
+JW2,4,Jumper wire,Male-to-Female,~10-20cm,For sensor/LED breakout connections
+BB1,1,Breadboard (optional),Half-size or Full-size,Solderless,For prototyping connections
+CASE1,1,3D Printed Enclosure Case,Custom design,PLA/PETG filament,Houses Arduino Uno and wiring
+LAMP1,1,3D Printed Lamp Diffuser/Housing,Custom design,PLA/PETG (translucent recommended for diffusion),Diffuses RGB LED light for ambient lamp effect
+PWR1,1,USB Power Cable,USB-A to USB-B,Standard cable,Powers Arduino Uno via USB port
